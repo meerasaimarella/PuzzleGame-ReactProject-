@@ -1,0 +1,34 @@
+
+.Container {
+    margin-left: 35%;
+    margin-top: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 15px;
+    cursor: default;
+    touch-action: none;
+    background: rgb(87, 64, 124);
+    border-radius: 12px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+
+.Container-Sub {
+    width: 106.25px;
+    height: 106.25px;
+    margin-right: 15px;
+    border-radius: 10px;
+    background-color: rgb(61, 41, 99);
+    text-align: center;
+}
+body{
+    background: #654ea3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #eaafc8, #654ea3); 
+
+}
+
